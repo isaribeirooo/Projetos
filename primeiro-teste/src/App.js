@@ -1,18 +1,16 @@
 import './App.css';
-import HelloWorld from './components/HelloWorld';
-import Frase from './components/Frase';
-import DigaMeuNome from './DigaMeuNome';
+import Evento from './components/Evento';
+import Formulario from './components/Formulario';
 
 function App() {
   return (
     <div className="App">
-      <h1>MEU PRIMEIRO REACT</h1>
-      <Frase /> 
-      <HelloWorld />
-      <Frase /> 
-      <DigaMeuNome nome="Ana e Isa"/>
-      <p>Outro paragrafo</p>
-    </div>
+      <h1>Testando eventos</h1>
+      <Evento numero="1"/>
+      <Evento numero="2"/>
+      <Formulario />
+
+          </div>
   );
 }
 
